@@ -14,7 +14,7 @@
   --fw-bold: 900;
 
   --clr-light: #fff;
-  --clr-dark: #303030;
+  --clr-dark: #000000;
   --clr-accent: #f1884a;
   --clr-gray: lightgray;
 
@@ -43,7 +43,7 @@ html {
 }
 
 body {
-  background: var(--clr-light);
+  background: var(--clr-dark);
   color: var(--clr-dark);
   margin: 0;
   font-family: var(--ff-primary);
@@ -134,6 +134,7 @@ header {
   left: 0;
   height: 150px;
   max-width: 200px;
+  z-index: 2;
 }
 
 .logo img {
@@ -266,7 +267,7 @@ header {
 @media (min-width: 900px) {
   .intro {
     display: grid;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     grid-column-gap: 0.5em;
     grid-template-areas:
